@@ -38,4 +38,5 @@
 7. Absences
     - Should be notified to the team 2 days in advance
     - Unfinished work should be delegated to another teammate accompanied by proper documentation.
-8. Team agreement will be reviewed every 4th team meeting
+8. Each will choose which specific tasks to work on during each sprint.
+9. Team agreement will be reviewed every 4th team meeting
