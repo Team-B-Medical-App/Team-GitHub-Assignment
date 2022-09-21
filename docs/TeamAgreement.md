@@ -1,6 +1,6 @@
 # Team Agreement
 
-## Team Contacts
+## Team Contact
 
 |Team Member     |Role                   |Email                       |GitHub             |
 |:---------------|:----------------------|:---------------------------|:------------------|
