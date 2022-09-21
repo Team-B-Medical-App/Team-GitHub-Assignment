@@ -3,24 +3,34 @@ public class main {
 
     }
 
-
-    //Bubble sort
-    public void bubblesort(){
-
-    }
-
-    //Insertion sort
-    public void insertsort(){
+   
+    // Bubble sort
+    public void bubblesort() {
 
     }
 
-    //Binary search
-    public void binarys(){
+    // Insertion sort
+    public void insertsort() {
 
     }
 
-    //Linear search
-    public void linears(){
-        
+    // Binary search
+    public void binarys() {
+
     }
+
+    // Linear search
+    public static int linears(int arr[], int target) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+
+                return i;
+            }
+
+        }
+
+        return -1;
+
+    }
+
 }
