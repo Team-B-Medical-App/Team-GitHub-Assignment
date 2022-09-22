@@ -3,7 +3,6 @@ public class main {
 
     }
 
-   
     // Bubble sort
     public void bubblesort() {
 
@@ -16,20 +15,6 @@ public class main {
 
     // Binary search
     public void binarys() {
-
-    }
-
-    // Linear search
-    public static int linears(int arr[], int target) {
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == target) {
-
-                return i;
-            }
-
-        }
-
-        return -1;
 
     }
 
