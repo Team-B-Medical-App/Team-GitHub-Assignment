@@ -3,14 +3,13 @@ public class main {
 
     }
 
-
     //Bubble sort
     public void bubblesort(){
 
     }
 
     //Insertion sort
-    public void insertsort(){
+    public void quicksort(){
 
     }
 
