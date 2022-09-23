@@ -8,7 +8,10 @@ public class searching
 
                 return i; //Returns target index
             }
+        }
 
+        return -1;
+    }
 
 	//Binary Search
 	public static int binarys(int arr[], int z)
@@ -26,11 +29,7 @@ public class searching
             else
                 y = m - 1;
         }
- 
         
         return -1;
-        
     }
-	 
-	
 }
