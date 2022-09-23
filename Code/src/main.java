@@ -9,6 +9,7 @@ public class main {
 
     //Bubble sort function, requires one Arraylist of Int type and returns a sorted arraylist.
     public static void bubblesort(){
+        //Initialize arraylist
         ArrayList <Integer> a = new ArrayList<Integer>(){{
             add(3);
             add(2);
@@ -16,9 +17,9 @@ public class main {
             add(4);
         }};
         bubblesort b = new bubblesort();
-        System.out.println("Initial array: ");
+        System.out.println("Initial array: "); //Print array before sorting
         System.out.println(a);
-        System.out.println("bubble sorted: ");
+        System.out.println("bubble sorted: "); //Print array after sorting
         System.out.println(b.bubSort(a));
 
     }
