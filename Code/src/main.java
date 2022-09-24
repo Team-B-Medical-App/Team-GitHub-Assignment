@@ -1,25 +1,33 @@
+import java.util.ArrayList;
 
-import java.util.*;
 
 public class main {
     public static void main(String[] args) {
-        linearsearch();
-        binarys();
+      linearsearch();
+      binarys();
+      bubblesort();
     }
 
-    // Bubble sort
-    public void bubblesort() {
 
-    }
-
-    // Insertion sort
-    public void insertsort() {
+    //Bubble sort function, requires one Arraylist of Int type and returns a sorted arraylist.
+    public static void bubblesort(){
+        //Initialize arraylist
+        ArrayList <Integer> a = new ArrayList<Integer>(){{
+            add(3);
+            add(2);
+            add(1);
+            add(4);
+        }};
+        bubblesort b = new bubblesort();
+        System.out.println("Initial array: "); //Print array before sorting
+        System.out.println(a);
+        System.out.println("bubble sorted: "); //Print array after sorting
+        System.out.println(b.bubSort(a));
 
     }
 
     // Binary search
     public static void binarys() {
-
     	int [] x = {7, 34,49 ,342 , 90};
     	System.out.println("Intital array: " + Arrays.toString(x));
     	System.out.println("Integer 342 is at index: " + searching.binarys(x,342));
@@ -27,15 +35,13 @@ public class main {
 
 
     }
-
+    //Linear search
     public static void linearsearch() {
         // Intializing array for linear search
         int[] a = { 10, 20, 30, 40, 50 };
-
         System.out.println("Initial array: ");
         System.out.println(Arrays.toString(a));
         System.out.print("Integer '30' is at index: ");
         System.out.println(searching.linears(a, 30)); // Returns index of 30 in the array
     }
-
 }
