@@ -11,12 +11,12 @@
 
 ## Installation
 
-Download zip folder and use locally.
+1. Clone repo
+2. Copy and paste src into desired folder
+3. Run main method of main class
 
 ## Usage
-
-```
-```
+1. Running the program will show the result of four methods, either sorting or searching through an array. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
