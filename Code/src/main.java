@@ -3,9 +3,11 @@ import java.util.ArrayList;
 
 public class main {
     public static void main(String[] args) {
+      bubblesort();
+      quicksort();
       linearsearch();
       binarys();
-      bubblesort();
+      
     }
 
 
@@ -25,6 +27,15 @@ public class main {
         System.out.println(b.bubSort(a));
 
     }
+    //Quicksort function
+    public static void quicksort()
+    {
+        int [] a= {3,1,2,5,7,8};
+        System.out.println("input array: " + Arrays.toString(a));
+        Sorting.quick(a, 0, 5);
+        System.out.println("Output array");
+        System.out.println(Arrays.toString(a));
+    };
 
     // Binary search
     public static void binarys() {
