@@ -19,12 +19,12 @@ public class main {
 
     // Binary search
     public static void binarys() {
-    	
+
     	int [] x = {7, 34,49 ,342 , 90};
     	System.out.println("Intital array: " + Arrays.toString(x));
     	System.out.println("Integer 342 is at index: " + searching.binarys(x,342));
-    	//Done 
-    	
+    	//Done
+
 
     }
 
